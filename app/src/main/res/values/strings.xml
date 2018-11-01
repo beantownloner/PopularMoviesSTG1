@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PopularMoviesSTG1</string>
+    <string name="activity_detail_title">Movie Detail</string>
+    <string name="sort_popular">Popular Movies</string>
+    <string name="sort_rating">Movies By Rating</string>
+</resources>
