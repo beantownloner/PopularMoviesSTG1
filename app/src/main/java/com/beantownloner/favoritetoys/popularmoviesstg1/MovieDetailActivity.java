@@ -55,7 +55,8 @@ public class MovieDetailActivity extends AppCompatActivity {
 
                     titleTV.setText(title);
                     releasedateTV.setText(ds2);
-                    ratingTV.setText(movie.getRating() + "/10");
+                    String rating = movie.getRating() +"/10";
+                    ratingTV.setText(rating);
                     overviewTV.setText(movie.getOverview());
 
                     Context context = getApplicationContext();
